@@ -1,1 +1,111 @@
-hello world
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>agnion Compagnions</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            min-height: 100vh;
+            margin: 0;
+            background-color: #f4f4f4;
+        }
+        h1 {
+            margin: 20px 0;
+        }
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+            width: 90%;
+            max-width: 1200px;
+        }
+        .tile {
+            background-color: white;
+            border-radius: 10px;
+            padding: 20px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            text-align: center;
+        }
+        .tile h3 {
+            margin-top: 10px;
+        }
+        .tile button {
+            display: block;
+            margin: 10px auto;
+            padding: 10px 15px;
+            font-size: 14px;
+            background-color: #7E5CEC;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        .tile button:hover {
+            background-color: #684bc0;
+        }
+        .tile .icon {
+            font-size: 32px;
+            margin-bottom: 10px;
+            color: #7E5CEC;
+        }
+    </style>
+</head>
+<body>
+    <h1>agnion Compagnions</h1>
+    <div class="grid">
+        <div class="tile">
+            <div class="icon"><i class="fas fa-puzzle-piece"></i></div>
+            <h3>1. KI Rätsel Duell</h3>
+            <button onclick="window.open('https://battleki-agnion.lovable.app/', '_blank')">Lovable App</button>
+            <button onclick="window.open('https://agnion.app.n8n.cloud/workflow/RQk035cHy1aQhYfe', '_blank')">n8n Flow</button>
+        </div>
+        <div class="tile">
+            <div class="icon"><i class="fas fa-signal"></i></div>
+            <h3>2. Status Agent</h3>
+            <button onclick="window.open('https://agnion.app.n8n.cloud/workflow/4tXcRAkCd0QmSEEM', '_blank')">n8n Flow</button>
+        </div>
+        <div class="tile">
+            <div class="icon"><i class="fas fa-chart-bar"></i></div>
+            <h3>3. Insights Agent</h3>
+            <button onclick="window.open('https://pmo-insights-compagnion.cogninode.orch.agnion.ai/', '_blank')">insights App</button>
+        </div>
+        <div class="tile">
+            <div class="icon"><i class="fas fa-calendar-alt"></i></div>
+            <h3>4. Smart Planner</h3>
+            <button onclick="window.open('https://agnion.app.n8n.cloud/workflow/LXjJ2Jw3jNGh9SIf', '_blank')">n8n flow</button>
+        </div>
+        <div class="tile">
+            <div class="icon"><i class="fas fa-file-contract"></i></div>
+            <h3>5. PHV Policy Migration</h3>
+            <button onclick="window.open('https://agnion.app.n8n.cloud/workflow/H7KBUeBIDH5egRI1', '_blank')">n8n flow</button>
+            <button onclick="window.open('Gothaer_PHV_2003_2023_Sommerfest.html', '_blank')">Vertragsvergleich</button>
+        </div>
+        <div class="tile">
+            <div class="icon"><i class="fas fa-edit"></i></div>
+            <h3>6. Contract Revision</h3>
+            <button onclick="window.open('https://contract-insights-compagnion.cogninode.orch.agnion.ai/', '_blank')">insights App</button>
+        </div>
+        <div class="tile">
+            <div class="icon"><i class="fas fa-exclamation-triangle"></i></div>
+            <h3>7. Risks & Issues Agent</h3>
+            <button onclick="window.open('https://alpha.agnion.ai', '_blank')">Alpha</button>
+        </div>
+        <div class="tile">
+            <div class="icon"><i class="fas fa-network-wired"></i></div>
+            <h3>8. Outsourcing Assessment Agent</h3>
+            <button onclick="window.open('https://alpha.agnion.ai', '_blank')">Alpha</button>
+        </div>
+        <div class="tile">
+            <div class="icon"><i class="fas fa-chalkboard-teacher"></i></div>
+            <h3>9. Sales Coaching</h3>
+            <button onclick="window.open('https://alpha.agnion.ai', '_blank')">Alpha</button>
+        </div>
+    </div>
+</body>
+</html>
